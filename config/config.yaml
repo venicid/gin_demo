@@ -1,0 +1,10 @@
+name: "GIN_DEMO"
+version: "v1.0"
+address: "0.0.0.0:8011"
+
+log:
+  level: debug
+  filename: ./log/myapp.log
+  max_size: 400
+  max_age: 30
+  max_backups: 15

@@ -1,0 +1,9 @@
+{"level":"INFO","time":"2022-12-09T12:50:44.442+0800","caller":"logger/logger.go:53","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T12:50:44.443+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T12:51:13.273+0800","caller":"logger/logger.go:53","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T12:51:21.094+0800","caller":"logger/logger.go:53","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T12:52:47.441+0800","caller":"logger/logger.go:57","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T12:52:47.442+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T12:53:47.512+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T12:53:47.512+0800","caller":"logger/logger.go:57","msg":"logger init success2"}
+{"level":"INFO","time":"2022-12-09T12:53:47.512+0800","caller":"gin_demo/main.go:34","msg":"app start"}
