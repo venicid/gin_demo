@@ -12,7 +12,7 @@ import (
 var Logger *zap.Logger
 
 // Init 初始化日志
-func InitLogger() error {
+func Init() error {
 
 	// 1. encoder
 	encoderCfg := zap.NewProductionEncoderConfig()

@@ -7,3 +7,38 @@
 {"level":"INFO","time":"2022-12-09T12:53:47.512+0800","caller":"logger/logger.go:54","msg":"logger init success"}
 {"level":"INFO","time":"2022-12-09T12:53:47.512+0800","caller":"logger/logger.go:57","msg":"logger init success2"}
 {"level":"INFO","time":"2022-12-09T12:53:47.512+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T12:55:06.738+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T12:55:06.739+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:07:56.741+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T13:07:56.742+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:21:04.006+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T13:21:04.006+0800","caller":"gin_demo/main.go:35","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:21:04.078+0800","caller":"mysql/mysql.go:46","msg":"数据库连接成功"}
+{"level":"INFO","time":"2022-12-09T13:31:35.147+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T13:31:35.148+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:31:35.192+0800","caller":"mysql/mysql.go:46","msg":"db conn success"}
+{"level":"INFO","time":"2022-12-09T13:31:45.876+0800","caller":"controller/hello.go:9","msg":"hello world"}
+{"level":"INFO","time":"2022-12-09T13:32:58.133+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T13:32:58.134+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:32:58.240+0800","caller":"mysql/mysql.go:46","msg":"db conn success"}
+{"level":"INFO","time":"2022-12-09T13:32:59.766+0800","caller":"controller/hello.go:10","msg":"hello world"}
+{"level":"INFO","time":"2022-12-09T13:51:08.630+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T13:51:08.630+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:51:08.689+0800","caller":"mysql/mysql.go:46","msg":"db conn success"}
+{"level":"INFO","time":"2022-12-09T13:51:39.135+0800","caller":"middleware/ginLogger.go:20","msg":"/hello1","status":404,"method":"GET","path":"/hello1","query":"","ip":"127.0.0.1","errors":"","cost":132}
+{"level":"INFO","time":"2022-12-09T13:52:02.440+0800","caller":"controller/hello.go:9","msg":"hello world"}
+{"level":"INFO","time":"2022-12-09T13:52:02.440+0800","caller":"middleware/ginLogger.go:20","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"127.0.0.1","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-09T13:52:50.604+0800","caller":"controller/hello.go:9","msg":"hello world"}
+{"level":"INFO","time":"2022-12-09T13:52:50.604+0800","caller":"middleware/ginLogger.go:20","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"127.0.0.1","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-09T13:52:52.621+0800","caller":"middleware/ginLogger.go:20","msg":"/hello1","status":404,"method":"GET","path":"/hello1","query":"","ip":"127.0.0.1","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-09T13:52:57.717+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T13:52:57.717+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:52:57.758+0800","caller":"mysql/mysql.go:46","msg":"db conn success"}
+{"level":"INFO","time":"2022-12-09T13:52:59.383+0800","caller":"middleware/ginLogger.go:20","msg":"/hello1","status":404,"method":"GET","path":"/hello1","query":"","ip":"127.0.0.1","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-09T13:53:02.149+0800","caller":"middleware/ginLogger.go:20","msg":"/hello1","status":404,"method":"GET","path":"/hello1","query":"","ip":"127.0.0.1","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-09T13:53:03.579+0800","caller":"middleware/ginLogger.go:20","msg":"/hello1","status":404,"method":"GET","path":"/hello1","query":"","ip":"127.0.0.1","errors":"","cost":0}
+{"level":"INFO","time":"2022-12-09T13:53:08.948+0800","caller":"logger/logger.go:54","msg":"logger init success"}
+{"level":"INFO","time":"2022-12-09T13:53:08.949+0800","caller":"gin_demo/main.go:34","msg":"app start"}
+{"level":"INFO","time":"2022-12-09T13:53:08.992+0800","caller":"mysql/mysql.go:46","msg":"db conn success"}
+{"level":"INFO","time":"2022-12-09T13:53:10.878+0800","caller":"middleware/ginLogger.go:20","msg":"/hello1","status":404,"method":"GET","path":"/hello1","query":"","ip":"127.0.0.1","errors":"","cost":832}
+{"level":"INFO","time":"2022-12-09T13:53:15.068+0800","caller":"middleware/ginLogger.go:20","msg":"/hello13","status":404,"method":"GET","path":"/hello13","query":"","ip":"127.0.0.1","errors":"","cost":0}

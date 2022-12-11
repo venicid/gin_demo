@@ -1,5 +1,6 @@
 name: "GIN_DEMO"
 version: "v1.0"
+mod: debug
 address: "0.0.0.0:8011"
 
 log:
@@ -8,3 +9,14 @@ log:
   max_size: 400
   max_age: 30
   max_backups: 15
+
+mysql:
+  host: 150.158.171.205
+  port: 3306
+  user: root
+  password: root112358
+  db: k8s_demo
+  max_open_conns: 100
+  max_idle_conns: 20
+  log_model: true
+
