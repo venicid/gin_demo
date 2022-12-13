@@ -15,7 +15,7 @@ mysql:
   port: 3306
   user: root
   password: root112358
-  db: k8s_demo
+  dbname: books
   max_open_conns: 100
   max_idle_conns: 20
   log_model: true

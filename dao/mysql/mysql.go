@@ -29,6 +29,7 @@ func Init() {
 		setting.Conf.MySQLConfig.Port,
 		setting.Conf.MySQLConfig.DB,
 	)
+	fmt.Println(dsn)
 	GORM, err = gorm.Open("mysql", dsn)
 	if err != nil {
 		panic("db conn  failed" + err.Error())

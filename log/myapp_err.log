@@ -1,0 +1,2 @@
+{"level":"ERROR","time":"2022-12-12T03:52:43.034+0800","caller":"books/handler.go:17","msg":"GetBookListHandler error, error message is strconv.ParseInt: parsing \"\": invalid syntax"}
+{"level":"ERROR","time":"2022-12-12T03:53:20.861+0800","caller":"books/handler.go:17","msg":"GetBookListHandler error, error message is strconv.ParseInt: parsing \"\": invalid syntax"}

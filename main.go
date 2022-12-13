@@ -36,7 +36,6 @@ func main() {
 
 	// 3. 数据库初始化
 	mysql.Init()
-	defer mysql.Close()
 
 	// 4. 初始化路由
 	r := router.Setup()
