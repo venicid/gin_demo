@@ -28,8 +28,9 @@ func Setup() *gin.Engine {
 	r.GET("/login", controller.LoginHandler)
 
 	// 路由拆分为不同模块
-	products.Init(r)
 	books.Init(r)
+
+	products.Init(r)
 
 	return r
 }

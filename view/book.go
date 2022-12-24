@@ -17,3 +17,13 @@ type ListBooksResponse struct {
 	Page     int64         `json:"page"`
 	PageSize int64         `json:"page_size"`
 }
+
+type CreateBookRequest struct {
+	Name string `json:"name"`
+	Desc string `json:"desc"`
+}
+
+type UpdateBookRequest struct {
+	Name string `json:"name"`
+	Desc string `json:"desc"`
+}
